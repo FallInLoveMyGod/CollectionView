@@ -13,6 +13,10 @@
 		FE48F71E1EFCD6830083C1A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE48F71C1EFCD6830083C1A6 /* Main.storyboard */; };
 		FE48F7201EFCD6830083C1A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE48F71F1EFCD6830083C1A6 /* Assets.xcassets */; };
 		FE48F7231EFCD6830083C1A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE48F7211EFCD6830083C1A6 /* LaunchScreen.storyboard */; };
+		FE48F72D1EFCDBEC0083C1A6 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE48F72B1EFCDBEC0083C1A6 /* CollectionViewCell.m */; };
+		FE48F72E1EFCDBEC0083C1A6 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE48F72C1EFCDBEC0083C1A6 /* CollectionViewCell.xib */; };
+		FE48F7371EFCE4FC0083C1A6 /* CollectionReusableHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = FE48F7361EFCE4FC0083C1A6 /* CollectionReusableHeader.m */; };
+		FE48F73A1EFCE5100083C1A6 /* CollectionReusableFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FE48F7391EFCE5100083C1A6 /* CollectionReusableFooter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,13 @@
 		FE48F71F1EFCD6830083C1A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE48F7221EFCD6830083C1A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE48F7241EFCD6830083C1A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE48F72A1EFCDBEC0083C1A6 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		FE48F72B1EFCDBEC0083C1A6 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		FE48F72C1EFCDBEC0083C1A6 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		FE48F7351EFCE4FC0083C1A6 /* CollectionReusableHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionReusableHeader.h; sourceTree = "<group>"; };
+		FE48F7361EFCE4FC0083C1A6 /* CollectionReusableHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionReusableHeader.m; sourceTree = "<group>"; };
+		FE48F7381EFCE5100083C1A6 /* CollectionReusableFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionReusableFooter.h; sourceTree = "<group>"; };
+		FE48F7391EFCE5100083C1A6 /* CollectionReusableFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionReusableFooter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +73,13 @@
 				FE48F7171EFCD6820083C1A6 /* AppDelegate.m */,
 				FE48F7191EFCD6820083C1A6 /* ViewController.h */,
 				FE48F71A1EFCD6820083C1A6 /* ViewController.m */,
+				FE48F72A1EFCDBEC0083C1A6 /* CollectionViewCell.h */,
+				FE48F72B1EFCDBEC0083C1A6 /* CollectionViewCell.m */,
+				FE48F72C1EFCDBEC0083C1A6 /* CollectionViewCell.xib */,
+				FE48F7351EFCE4FC0083C1A6 /* CollectionReusableHeader.h */,
+				FE48F7361EFCE4FC0083C1A6 /* CollectionReusableHeader.m */,
+				FE48F7381EFCE5100083C1A6 /* CollectionReusableFooter.h */,
+				FE48F7391EFCE5100083C1A6 /* CollectionReusableFooter.m */,
 				FE48F71C1EFCD6830083C1A6 /* Main.storyboard */,
 				FE48F71F1EFCD6830083C1A6 /* Assets.xcassets */,
 				FE48F7211EFCD6830083C1A6 /* LaunchScreen.storyboard */,
@@ -139,6 +157,7 @@
 			files = (
 				FE48F7231EFCD6830083C1A6 /* LaunchScreen.storyboard in Resources */,
 				FE48F7201EFCD6830083C1A6 /* Assets.xcassets in Resources */,
+				FE48F72E1EFCDBEC0083C1A6 /* CollectionViewCell.xib in Resources */,
 				FE48F71E1EFCD6830083C1A6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,8 +170,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE48F71B1EFCD6820083C1A6 /* ViewController.m in Sources */,
+				FE48F7371EFCE4FC0083C1A6 /* CollectionReusableHeader.m in Sources */,
 				FE48F7181EFCD6820083C1A6 /* AppDelegate.m in Sources */,
+				FE48F72D1EFCDBEC0083C1A6 /* CollectionViewCell.m in Sources */,
 				FE48F7151EFCD6820083C1A6 /* main.m in Sources */,
+				FE48F73A1EFCE5100083C1A6 /* CollectionReusableFooter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
