@@ -21,6 +21,7 @@
 
  *   3. collection 的整体头部和底部 无直接方法创建。 可根据section判断只添加section = 0 和 section = 最后的一个section 时 分别添加头部和底部，中间section 不添加
  *   4. 头部和底部自定的过程中都继承于 UICollectionReusableView （其他疑问具体参照一下代码）
+ *   参考 : http://www.myexception.cn/mobile/1856317.html
 **/
 
 @interface ViewController () <UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
